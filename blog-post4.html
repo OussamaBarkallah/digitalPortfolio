@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me - Oussama Barkallah</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body class="bg-white text-black">
+
+    <header class="py-4 bg-[#1a1a1a] text-white">
+        <div class="container mx-auto flex flex-col items-center space-y-6 md:flex-row md:justify-between md:items-center md:space-y-0"> 
+            <div class="flex items-center gap-3">
+                <a href="index.html" class="flex items-center gap-3">
+                    <img class="w-12 h-12 rounded-full object-cover border-2 border-[#e67e22]" src="assets/Photo de profil.png" alt="Logo">
+                    <div class="flex flex-col leading-tight">
+                        <span class="text-xl font-bold tracking-tighter text-white">OUSSAMA</span>
+                        <span class="text-[9px] uppercase tracking-[0.2em] text-gray-500">Graphic/Video</span>
+                    </div>
+                </a>
+            </div>
+             <ul class="flex flex-col items-center space-y-2 md:flex-row md:space-x-6 md:space-y-0">
+                <li><a class="font-medium text-lg hover:text-[#e67e22] transition duration-300" href="/index.html">Home</a></li>
+                <li><a class="font-medium text-lg hover:text-[#e67e22] transition duration-300" href="index.html#services">Services</a></li>
+                <li><a class="font-medium text-lg hover:text-[#e67e22] transition duration-300" href="index.html#projects">Projects</a></li>
+                <li><a class="font-medium text-lg hover:text-[#e67e22] transition duration-300" href="about.html">About Me</a></li>
+                <li><a class="font-medium text-lg hover:text-[#e67e22] transition duration-300" href="blog.html">Blog</a></li>
+                <li><a class="font-medium text-lg hover:text-[#e67e22] transition duration-300" href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <main class="flex-grow py-12 px-5">
+        <article class="container mx-auto max-w-4xl">
+            
+            <div class="mb-10 text-center">
+                <span class="text-[#e67e22] font-bold uppercase tracking-widest text-sm">Thesis Manuscript</span>
+                <h1 class="text-4xl md:text-6xl font-extrabold mt-4 mb-6 leading-tight">Understanding the Relationship Between Older Adults and E-Health</h1>
+            </div>
+
+            <div class="prose prose-lg max-w-none text-gray-700 leading-relaxed">
+                <h2 class="text-2xl font-bold text-black mb-4">Exploring Digital Health Through an Accessibility Lens</h2>
+                <p class="mb-8">
+                    This thesis research explores how older adults (70+) interact with e-health services, focusing on usability, accessibility, and trust. The goal was to understand how digital health platforms can better support this growing population while reducing the digital divide. <br>
+                    Using <strong>Doctolib</strong> as a case study, I analyzed how seniors navigate digital healthcare tools and identified the main barriers they encounter—from limited digital literacy to interface complexity. The research aimed to strengthen autonomy, confidence, and inclusion in digital health experiences.
+                </p>
+                
+                <h2 class="text-2xl font-bold text-black mb-4">Research Questions</h2>
+                <p class="mb-2">
+                    This study was guided by two central questions:
+                    <ul>
+                        <li class="list-disc ml-8">What causes the digital divide among older adults?</li>
+                        <li class="list-disc ml-8">What challenges do they face when using e-health services?</li>
+                    </ul>
+                </p> <br>
+
+                <h2 class="text-2xl font-bold text-black mb-4">Methodology</h2>
+                <p class="mb-2">
+                    To answer these questions, I adopted a mixed UX research approach combining qualitative and quantitative methods:
+                    <ul>
+                        <li class="list-disc ml-8">Quantitative surveys with public organizations to analyze existing digital training programs for seniors</li>
+                        <li class="list-disc ml-8">Ethnographic interviews with older adults to observe real-life interactions with Doctolib</li>
+                        <li class="list-disc ml-8">Focus groups to encourage discussion, shared experiences, and collective reflection</li>
+                    </ul> <br>
+                </p>
+
+                 <div class="grid grid-cols-1 md:grid-cols-2 gap-6 my-10">
+                    <div class="group">
+                        <img src="assets/Blog-4-post1.png" 
+                            onclick="openModal(this.src)"
+                            class="rounded-xl shadow-md transition transform group-hover:scale-105 cursor-zoom-in" 
+                            alt="Process AI">
+                        <p class="text-xs text-gray-400 mt-2 italic text-center">Methodology process</p>
+                    </div>
+                    <div class="group">
+                        <img src="assets/Blog-4-post2.png" 
+                            onclick="openModal(this.src)"
+                            class="rounded-xl shadow-md transition transform group-hover:scale-105 cursor-zoom-in" 
+                            alt="Integration Figma">
+                        <p class="text-xs text-gray-400 mt-2 italic text-center">Methodology process</p>
+                    </div>
+                </div>
+
+                <h2 class="text-2xl font-bold text-black mb-4">Key Findings</h2>
+                <p class="mb-2">
+                    All collected data was synthesized through a complete UX process, including:
+                    <ul>
+                        <li class="list-disc ml-8">Personas</li>
+                        <li class="list-disc ml-8">User journeys</li>
+                        <li class="list-disc ml-8">Experience maps</li>
+                        <li class="list-disc ml-8">How Might We statements</li> 
+                    </ul> <br>
+                    These insights led to concrete design recommendations aimed at making e-health platforms more inclusive, intuitive, and empowering for elderly users. <br> <br>
+                </p>
+
+                 <h2 class="text-2xl font-bold text-black mb-4">Design Opportunities & Future Directions</h2>
+                        <p class="mb-6">
+                    The research highlights the need for adaptive interfaces that cater to declining cognitive or sensory abilities. Future directions include integrating simplified navigation modes, voice-assisted guidance, and clearer visual hierarchies to ensure that digital health tools act as an aid rather than a barrier.
+                        </p>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6 my-10">
+                    <div class="group">
+                        <img src="assets/Blog-4-post3.png" 
+                            onclick="openModal(this.src)"
+                            class="rounded-xl shadow-md transition transform group-hover:scale-105 cursor-zoom-in" 
+                            alt="Process AI">
+                        <p class="text-xs text-gray-400 mt-2 italic text-center">Design Opportunities</p>
+                    </div>
+                    <div class="group">
+                        <img src="assets/Blog-4-post4.png" 
+                            onclick="openModal(this.src)"
+                            class="rounded-xl shadow-md transition transform group-hover:scale-105 cursor-zoom-in" 
+                            alt="Integration Figma">
+                        <p class="text-xs text-gray-400 mt-2 italic text-center">Design Opportunities</p>
+                    </div>
+                </div>
+
+                 <h2 class="text-2xl font-bold text-black mb-4">Skills Gained</h2>
+                    <p class="text-gray-600">
+                        <ul>
+                            <li class="list-disc ml-8">Designing and conducting interview protocols</li>
+                            <li class="list-disc ml-8">Leading qualitative research and data synthesis</li>
+                            <li class="list-disc ml-8">Applying UX methodologies to complex social and healthcare challenges</li>
+                            <li class="list-disc ml-8">Proposing user-centered solutions adapted to older adults</li> 
+                        </ul>
+                    </p> <br>
+                 <div class="bg-[#fef4ea] border-l-4 border-[#e67e22] p-8 rounded-r-xl mb-8">
+                    <h3 class="text-xl font-bold text-black mb-2">Final Thoughts</h3>
+                    <p class="text-gray-600">
+                        This thesis strengthened my understanding of digital accessibility and empathy-driven design. It demonstrated how thoughtful UX research can reduce digital inequality and significantly improve access to healthcare for older generations.
+                    </p>
+                </div>
+            </div>
+
+            <a href="assets/UE18_Oussama Barkallah_Mémoire.pdf" target="_blank" download="Mémoire_Oussama_Barkallah"
+                     class="inline-flex items-center bg-[#e67e22] text-white font-semibold px-8 py-4 rounded-md transition transform hover:-translate-y-1 hover:brightness-110 shadow-lg group">
+                    <i class="fa-solid fa-file-pdf mr-3 text-xl"></i>
+                    Download manuscript
+                    </a> <br> <br>
+
+            <div class="border-t border-gray-100 pt-10 text-center">
+                <a href="blog.html" class="inline-flex items-center text-[#e67e22] font-bold hover:gap-3 transition-all">
+                    <i class="fa-solid fa-arrow-left mr-2"></i> Back to Blog
+                </a>
+            </div>
+             
+
+        </article>
+        
+    </main>
+
+    <footer class="bg-[#1a1a1a] text-white py-12 px-5 mt-auto">
+        <div class="container mx-auto flex flex-col items-center">
+            <div class="mb-8">
+                <a href="index.html" class="flex flex-col items-center gap-2">
+                    <img class="w-16 h-16 rounded-full object-cover border-2 border-[#e67e22]" src="assets/Photo de profil.png" alt="Logo">
+                </a>
+            </div>
+
+
+             <ul class="flex flex-wrap justify-center gap-6 md:gap-10 mb-8">
+            <li><a class="font-medium text-lg hover:text-[#e67e22] transition duration-300" href="index.html">Home</a></li>
+            <li><a class="font-medium text-lg hover:text-[#e67e22] transition duration-300" href="index.html#services">Services</a></li>
+            <li><a class="font-medium text-lg hover:text-[#e67e22] transition duration-300" href="index.html#projects">Projects</a></li>
+            <li><a class="font-medium text-lg hover:text-[#e67e22] transition duration-300" href="about.html">About Me</a></li>
+            <li><a class="font-medium text-lg hover:text-[#e67e22] transition duration-300" href="blog.html">Blog</a></li>
+            <li><a class="font-medium text-lg hover:text-[#e67e22] transition duration-300" href="contact.html">Contact</a></li>
+        </ul>
+
+          <!-- Reseau socieaux -->
+        <div class="flex space-x-6 text-2xl mb-10">
+            <a href="https://www.linkedin.com/in/oussama-barkallah/" target="_blank" rel="noopener noreferrer" class="hover:text-[#e67e22] transition transform hover:scale-110"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://dribbble.com/oussama-barkallah" target="_blank" rel="noopener noreferrer" class="hover:text-[#e67e22] transition transform hover:scale-110"><i class="fa-brands fa-dribbble"></i></a>
+            <a href="https://www.behance.net/oussamabarkall1" target="_blank" rel="noopener noreferrer" class="hover:text-[#e67e22] transition transform hover:scale-110"><i class="fa-brands fa-behance"></i></a>
+          <a href="mailto:oussama.obarkallah@gmail.com" class="hover:text-[#e67e22] transition transform hover:scale-110"><i class="fa-solid fa-envelope"></i></a>
+           <a href="https://wa.me/33745671704" target="_blank" rel="noopener noreferrer" class="hover:text-[#e67e22] transition transform hover:scale-110"> <i class="fa-brands fa-whatsapp"></i></a>
+        </div>
+
+            <div class="w-full border-t border-gray-800 pt-8 text-center">
+                <p class="text-gray-400 text-sm">
+                    &copy; 2025 <span class="text-[#e67e22] font-semibold">Oussama Barkallah</span> All Rights Reserved.
+                </p>
+            </div>
+        </div>
+    </footer>
+     <div id="imageModal" class="fixed inset-0 z-50 hidden bg-black bg-opacity-90 flex items-center justify-center cursor-zoom-out p-4">
+            <img id="modalImage" src="" class="max-w-full max-h-full rounded-lg shadow-2xl">
+        </div>
+        <script>
+            const modal = document.getElementById('imageModal');
+            const modalImg = document.getElementById('modalImage');
+
+            function openModal(src) {
+                modal.classList.remove('hidden');
+                modalImg.src = src;
+                // Empêche le scroll de la page quand l'image est ouverte
+                document.body.style.overflow = 'hidden';
+            }
+
+            modal.onclick = function() {
+                modal.classList.add('hidden');
+                // Réactive le scroll
+                document.body.style.overflow = 'auto';
+            }
+        </script>
+</body>
+</html>

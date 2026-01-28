@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,400&display=swap');
+
+
+.bg-light {
+    background-image: url("./images/bg-light.png");
+    background-repeat: no-repeat;
+    background-size: cover
+}
+
+.poppins {
+    font-family: "Poppins", serif;
+    font-weight: 400;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+    display: none; /* Cache la barre de défilement pour un look plus propre */
+}
+
+/* Pour cacher la barre de scroll moche et garder un design propre */
+.custom-scrollbar::-webkit-scrollbar { width: 8px; }
+.custom-scrollbar::-webkit-scrollbar-track { background-color: antiquewhite;}
+.custom-scrollbar::-webkit-scrollbar-thumb { background: #e67e22; border-radius: 10px; }
+
+.img-lacito{
+    background-image: url("./assets/Blog-1post1.png");
+}

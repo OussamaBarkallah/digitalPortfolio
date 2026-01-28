@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me - Oussama Barkallah</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body class="bg-white text-black">
+
+    <header class="py-4 bg-[#1a1a1a] text-white">
+        <div class="container mx-auto flex flex-col items-center space-y-6 md:flex-row md:justify-between md:items-center md:space-y-0"> 
+            <div class="flex items-center gap-3">
+                <a href="index.html" class="flex items-center gap-3">
+                    <img class="w-12 h-12 rounded-full object-cover border-2 border-[#e67e22]" src="assets/Photo de profil.png" alt="Logo">
+                    <div class="flex flex-col leading-tight">
+                        <span class="text-xl font-bold tracking-tighter text-white">OUSSAMA</span>
+                        <span class="text-[9px] uppercase tracking-[0.2em] text-gray-500">Graphic/Video</span>
+                    </div>
+                </a>
+            </div>
+             <ul class="flex flex-col items-center space-y-2 md:flex-row md:space-x-6 md:space-y-0">
+                <li><a class="font-medium text-lg hover:text-[#e67e22] transition duration-300" href="/index.html">Home</a></li>
+                <li><a class="font-medium text-lg hover:text-[#e67e22] transition duration-300" href="index.html#services">Services</a></li>
+                <li><a class="font-medium text-lg hover:text-[#e67e22] transition duration-300" href="index.html#projects">Projects</a></li>
+                <li><a class="font-medium text-lg hover:text-[#e67e22] transition duration-300" href="about.html">About Me</a></li>
+                <li><a class="font-medium text-lg hover:text-[#e67e22] transition duration-300" href="blog.html">Blog</a></li>
+                <li><a class="font-medium text-lg hover:text-[#e67e22] transition duration-300" href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <main class="flex-grow py-16 px-5">
+        <div class="container mx-auto">
+            <div class="text-center mb-12">
+                <h2 class="text-[#e67e22] font-bold text-xl mb-2">Get In Touch</h2>
+                <h1 class="text-4xl md:text-5xl font-extrabold">Let’s talk about your project</h1>
+            </div>
+
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-16">
+                
+                <div class="flex flex-col justify-center">
+                    <h3 class="text-2xl font-bold mb-6">Coordonnées</h3>
+                    <p class="text-gray-500 mb-8 leading-relaxed text-lg">
+                        Do you have a project idea or just want to say hello? Feel free to send me a message using the form below or through my social networks.
+                    </p>
+                    
+                    <div class="space-y-6">
+                        <div class="flex items-center gap-4">
+                            <div class="w-12 h-12 bg-[#fef4ea] flex items-center justify-center rounded-full text-[#e67e22]">
+                                <i class="fa-solid fa-envelope text-xl"></i>
+                            </div>
+                            <div>
+                                <span class="block text-sm text-gray-400 uppercase font-bold">Email</span>
+                                <span class="text-lg font-semibold">oussama.obarkallah@gmail.com</span>
+                            </div>
+                        </div>
+                            <!-- section whatsapp
+                        <div class="flex items-center gap-4">
+                            <div class="w-12 h-12 bg-[#fef4ea] flex items-center justify-center rounded-full text-[#e67e22]">
+                                <i class="fa-brands fa-whatsapp text-xl"></i>
+                            </div>
+                            <div>
+                                <span class="block text-sm text-gray-400 uppercase font-bold">WhatsApp</span>
+                                <span class="text-lg font-semibold">+33 7 45 67 17 04</span>
+                            </div>
+                        </div>-->
+                    </div> 
+
+                    <div class="mt-10">
+                        <h4 class="font-bold mb-4">Follow Me</h4>
+                        <div class="flex space-x-4 text-2xl text-black">
+                            <a href="https://www.linkedin.com/in/oussama-barkallah/" target="_blank" rel="noopener noreferrer" class="hover:text-[#e67e22] transition transform hover:scale-110"><i class="fa-brands fa-linkedin"></i></a>
+                            <a href="https://dribbble.com/oussama-barkallah" target="_blank" rel="noopener noreferrer" class="hover:text-[#e67e22] transition transform hover:scale-110"><i class="fa-brands fa-dribbble"></i></a>
+                            <a href="https://www.behance.net/oussamabarkall1" target="_blank" rel="noopener noreferrer" class="hover:text-[#e67e22] transition transform hover:scale-110"><i class="fa-brands fa-behance"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-gray-50 p-8 md:p-10 rounded-2xl shadow-sm border border-gray-100">
+                    <form action="https://formspree.io/f/mqekkgjy" method="POST" class="space-y-6">
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                            <div>
+                                <label class="block text-sm font-bold mb-2">Full Name</label>
+                                <input type="text" name="name" placeholder="Ex: John Doe" required class="w-full px-4 py-3 rounded-md border border-gray-200 focus:outline-none focus:border-[#e67e22] transition">
+                            </div>
+                            <div>
+                                <label class="block text-sm font-bold mb-2">Email</label>
+                                <input type="email" name="email" placeholder="john@example.com" required class="w-full px-4 py-3 rounded-md border border-gray-200 focus:outline-none focus:border-[#e67e22] transition">
+                            </div>
+                        </div>
+                        <div>
+                            <label class="block text-sm font-bold mb-2">Subject</label>
+                            <input type="text" name="subject" placeholder="Subject of your message..." required class="w-full px-4 py-3 rounded-md border border-gray-200 focus:outline-none focus:border-[#e67e22] transition">
+                        </div>
+                        <div>
+                            <label class="block text-sm font-bold mb-2">Message</label>
+                            <textarea name="message" rows="5" placeholder="Your message here..." required class="w-full px-4 py-3 rounded-md border border-gray-200 focus:outline-none focus:border-[#e67e22] transition"></textarea>
+                        </div>
+                        <button type="submit" class="w-full bg-[#e67e22] text-white font-bold py-4 rounded-md hover:brightness-110 transition shadow-lg">
+                            Send Message
+                        </button>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="bg-[#1a1a1a] text-white py-12 px-5">
+        <div class="container mx-auto flex flex-col items-center">
+            <div class="mb-8 text-center">
+                <img class="w-16 h-16 rounded-full object-cover border-2 border-[#e67e22] mx-auto mb-2" src="assets/Photo de profil.png" alt="Logo">
+                <p class="text-sm text-gray-400 italic">Créatif & Passionné</p>
+            </div>
+            <ul class="flex flex-wrap justify-center gap-6 md:gap-10 mb-8">
+                <li><a class="font-medium text-lg hover:text-[#e67e22] transition duration-300" href="index.html">Home</a></li>
+                <li><a class="font-medium text-lg hover:text-[#e67e22] transition duration-300" href="index.html#services">Services</a></li>
+                <li><a class="font-medium text-lg hover:text-[#e67e22] transition duration-300" href="index.html#projects">Projects</a></li>
+                <li><a class="font-medium text-lg hover:text-[#e67e22] transition duration-300" href="about.html">About Me</a></li>
+                <li><a class="font-medium text-lg hover:text-[#e67e22] transition duration-300" href="blog.html">Blog</a></li>
+                <li><a class="font-medium text-lg hover:text-[#e67e22] transition duration-300" href="contact.html">Contact</a></li>
+            </ul>
+            <div class="w-full border-t border-gray-800 pt-8 text-center text-gray-400 text-sm">
+                &copy; 2025 <span class="text-[#e67e22] font-semibold">Oussama Barkallah</span> All Rights Reserved.
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>

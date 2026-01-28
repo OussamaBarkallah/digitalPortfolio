@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel - Template Tailwind CSS</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</script>
+</head>
+<body>
+    <!--barre de navigation -->
+     <header class="py-4 bg-[#1a1a1a] text-white">
+        <div class="container mx-auto flex flex-col items-center space-y-6 md:flex-row md:justify-between md:items-center md:space-y-0"> 
+            
+            <div class="flex items-center gap-3">
+                <a href="index.html" class="flex items-center gap-3">
+                <img class="w-12 h-12 rounded-full object-cover border-2 border-[#e67e22]" src="assets/Photo de profil.png" alt="Logo">
+        
+                <div class="flex flex-col leading-tight">
+                    <span class="text-xl font-bold tracking-tighter text-white dark:text-white">
+                    OUSSAMA
+                    </span>
+                    <span class="text-[9px] uppercase tracking-[0.2em] text-gray-500">Graphic/Video</span>
+                </div>
+                </a>
+            </div>
+            <ul class="flex flex-col items-center space-y-2 md:flex-row md:space-x-6 md:space-y-0">
+                <li><a class="font-medium text-lg hover:text-[#e67e22] transition duration-300" href="/index.html">Home</a></li>
+                <li><a class="font-medium text-lg hover:text-[#e67e22] transition duration-300" href="index.html#services">Services</a></li>
+                <li><a class="font-medium text-lg hover:text-[#e67e22] transition duration-300" href="index.html#projects">Projects</a></li>
+                <li><a class="font-medium text-lg hover:text-[#e67e22] transition duration-300" href="about.html">About Me</a></li>
+                <li><a class="font-medium text-lg hover:text-[#e67e22] transition duration-300" href="blog.html">Blog</a></li>
+                <li><a class="font-medium text-lg hover:text-[#e67e22] transition duration-300" href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </header>
+        <!-- Hello section -->
+        <section class="text-black py-16 px-5 mb-8">
+            <div class="container mx-auto flex flex-col items-center lg:flex-row lg:justify-between gap-y-12 lg:gap-x-20">
+
+                <div class="w-full lg:w-1/2 flex flex-col justify-center">
+                    <span class="text-lg font-medium mb-2">Hi I am</span>
+                    <h2 class="text-[#e67e22] text-2xl font-bold mb-1">Oussama Barkallah</h2>
+                    
+                    <h1 class="font-adelle font-extrabold text-5xl md:text-7xl leading-none mb-6">
+                        Graphic &<br>
+                        <span class="lg:ml-20">Video Deigner</span>
+                    </h1>
+
+                    <p class="text-gray-400 text-lg max-w-lg leading-relaxed mb-8">
+                        I create motion graphics and digital visuals for social media and digital platforms. My work focuses on clear ideas, simple animations, and strong visual impact. I use motion design and graphic design tools, along with AI, to produce engaging and effective content.
+                    </p>
+
+                    <a class="bg-[#e67e22] text-white font-semibold px-10 py-4 rounded-md self-start transition transform hover:-translate-y-1 hover:brightness-110 shadow-lg" href="contact.html">
+                        Hire Me
+                    </a>
+                </div>
+
+                <div class="w-full lg:w-1/2 flex justify-center lg:justify-end">
+                    <div class="relative w-72 h-72 md:w-[450px] md:h-[450px] rounded-full overflow-hidden">
+                        <img class="w-full h-full object-cover " src="assets/Photo de profil.png" alt="Oussama Barkallah">
+                    </div>
+                    </div>
+                     <!-- Section Mes services 
+                    <div class="flex space-x-6 text-3xl text-black items-start"> 
+                        <a href="#" class="hover:text-[#e67e22] transition transform hover:scale-110"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="#" class="hover:text-[#e67e22] transition transform hover:scale-110"><i class="fa-brands fa-dribbble"></i></a>
+                        <a href="#" class="hover:text-[#e67e22] transition transform hover:scale-110"><i class="fa-brands fa-behance"></i></a>
+                        <a href="#" class="hover:text-[#e67e22] transition transform hover:scale-110"><i class="fa-solid fa-envelope"></i></a>
+                        <a href="#" class="hover:text-[#e67e22] transition transform hover:scale-110"><i class="fa-brands fa-whatsapp"></i></a>
+                    </div> -->
+                </div>
+            </div>
+        </section>
+        <!-- Section Mes services -->
+    <section id="services" class="bg-white py-3 px-2 mb-8">
+        <div class="text-center mb-12">
+            <h2 class="font-adelle font-bold text-4xl lg:text-5xl text-black mb-4">Services</h2>
+            <p class="text-gray-600 max-w-2xl mx-auto">
+                I provide graphic design, motion design, and AI-powered creative solutions, driven by creativity and a passion for digital experiences.
+
+
+            </p>
+        </div>
+
+        <div class="container mx-auto grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
+
+            <div class="bg-[#f9f9f9] rounded-xl px-8 py-10 flex flex-col items-start transition hover:shadow-lg">
+                <div class="text-[#e67e22] text-5xl mb-6">
+                    <i class="fa-solid fa-layer-group"></i>
+                </div>
+                <h3 class="text-black text-2xl font-bold mb-4">graphics designer</h3>
+                <p class="text-gray-600">Designing logos, digital and print assets, and building cohesive visual identities.</p>
+            </div>
+
+            <div class="bg-[#f9f9f9] rounded-xl px-8 py-10 flex flex-col items-start transition hover:shadow-lg">
+                <div class="text-[#e67e22] text-5xl mb-6">
+                    <i class="fa-solid fa-play"></i>
+                </div>
+                    <h3 class="text-black text-2xl font-bold mb-4">Motion designer</h3>
+                    <p class="text-gray-600">Creating 2D animations, professional video editing, GIFs, and dynamic web or mobile banners.</p>
+            </div>
+            <div class="bg-[#f9f9f9] rounded-xl px-8 py-10 flex flex-col items-start transition hover:shadow-lg">
+                <div class="text-[#e67e22] text-5xl mb-6">
+                    <i class="fa-solid fa-laptop-code"></i>
+                </div>
+                <h3 class="text-black text-2xl font-bold mb-4">AI Services</h3>
+                <p class="text-gray-600">I leverage AI tools to create images, videos, and UI interfaces. I also write and test prompts to optimize workflow and efficiency.</p>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Section My projects -->
+
+     <section id="projects" class="bg-white py-16 px-5 mb-8">
+        <div class="text-center mb-12">
+            <h2 class="font-adelle font-bold text-4xl lg:text-5xl text-black mb-4">My Projects</h2>
+            <p class="text-gray-600 max-w-2xl mx-auto">Take a look at my work below!</p>
+        </div>
+
+        <div class="container mx-auto grid grid-cols-1 gap-10 md:grid-cols-2 lg:grid-cols-3">
+
+        <!-- motion projects --> 
+         <a href="motion1.html" class="project-card motion group flex flex-col cursor-pointer bg-white rounded-2xl transition-all duration-300 hover:shadow-xl p-2 no-underline">
+            <div class="relative aspect-[4/4] overflow-hidden rounded-xl bg-[#fef4ea]">
+                <img class="w-full h-full object-cover transition duration-500 group-hover:scale-105" 
+                    src="assets/Motion-3.png" alt="motion Project">
+            </div>
+            
+            <div class="mt-5 px-1 pb-2">
+                <span class="text-[#e67e22] text-sm font-semibold tracking-wide">Art of AI </span>
+                <h3 class="text-xl font-bold text-black mt-2 leading-tight">
+                    AI Design | Prompt Engineering
+                </h3>
+            </div>
+        </a>
+
+         <a href="motion2.html" class="project-card motion group flex flex-col cursor-pointer bg-white rounded-2xl transition-all duration-300 hover:shadow-xl p-2 no-underline">
+            <div class="relative aspect-[4/4] overflow-hidden rounded-xl bg-[#fef4ea]">
+                <img class="w-full h-full object-cover transition duration-500 group-hover:scale-105" 
+                    src="assets/Motion-1.png" alt="motion Project">
+            </div>
+            
+            <div class="mt-5 px-1 pb-2">
+                <span class="text-[#e67e22] text-sm font-semibold tracking-wide">Digital & Motion design</span>
+                <h3 class="text-xl font-bold text-black mt-2 leading-tight">
+                    Art Direction | Motion Design | Photography
+                </h3>
+            </div>
+        </a>
+         <a href="motion3.html" class="project-card motion group flex flex-col cursor-pointer bg-white rounded-2xl transition-all duration-300 hover:shadow-xl p-2 no-underline">
+            <div class="relative aspect-[4/4] overflow-hidden rounded-xl bg-[#fef4ea]">
+                <img class="w-full h-full object-cover transition duration-500 group-hover:scale-105" 
+                    src="assets/Motion-2.png" alt="motion Project">
+            </div>
+            
+            <div class="mt-5 px-1 pb-2">
+                <span class="text-[#e67e22] text-sm font-semibold tracking-wide">Visual Designer</span>
+                <h3 class="text-xl font-bold text-black mt-2 leading-tight">
+                    Visual Design | Social Media Campaigns
+                </h3>
+            </div>
+        </a>
+         <a href="motion4.html" class="project-card motion group flex flex-col cursor-pointer bg-white rounded-2xl transition-all duration-300 hover:shadow-xl p-2 no-underline">
+            <div class="relative aspect-[4/4] overflow-hidden rounded-xl bg-[#fef4ea]">
+                <img class="w-full h-full object-cover transition duration-500 group-hover:scale-105" 
+                    src="assets/Motion-4.png" alt="motion Project">
+            </div>
+            
+            <div class="mt-5 px-1 pb-2">
+                <span class="text-[#e67e22] text-sm font-semibold tracking-wide">Video Showcase</span>
+                <h3 class="text-xl font-bold text-black mt-2 leading-tight">
+                    Motion | Video Editing
+                </h3>
+            </div>
+        </a> 
+      
+        <!-- UX/UI projects -->  <!-- 
+
+        <a href="UX-UI1.html" class="project-card ui-ux group flex flex-col cursor-pointer bg-white rounded-2xl transition-all duration-300 hover:shadow-xl p-2 no-underline">
+            <div class="relative aspect-[4/4] overflow-hidden rounded-xl bg-[#fef4ea]">
+                <img class="w-full h-full object-cover transition duration-500 group-hover:scale-105" 
+                    src="assets/ux-ui1.png" alt="UX/UI Project">
+            </div>
+            <div class="mt-5 px-1 pb-2">
+                <span class="text-[#e67e22] text-sm font-semibold tracking-wide">UX/UI Design </span>
+                <h3 class="text-xl font-bold text-black mt-2 leading-tight">
+                    Orange : Design System
+                </h3>
+            </div>
+        </a>
+        <a href="UX-UI2.html" class="project-card ui-ux group flex flex-col cursor-pointer bg-white rounded-2xl transition-all duration-300 hover:shadow-xl p-2 no-underline">
+            <div class="relative aspect-[4/4] overflow-hidden rounded-xl bg-[#fef4ea]">
+                <img class="w-full h-full object-cover transition duration-500 group-hover:scale-105" 
+                    src="assets/ux-ui2.png" alt="UX/UI Project">
+            </div>
+            <div class="mt-5 px-1 pb-2">
+                <span class="text-[#e67e22] text-sm font-semibold tracking-wide">UX/UI Design </span>
+                <h3 class="text-xl font-bold text-black mt-2 leading-tight">
+                    USPN Student Mobile App
+                </h3>
+            </div>
+        </a>
+        <a href="UX-UI3.html" class="project-card ui-ux group flex flex-col cursor-pointer bg-white rounded-2xl transition-all duration-300 hover:shadow-xl p-2 no-underline">
+            <div class="relative aspect-[4/4] overflow-hidden rounded-xl bg-[#fef4ea]">
+                <img class="w-full h-full object-cover transition duration-500 group-hover:scale-105" 
+                    src="assets/ux-ui3.png" alt="UX/UI Project">
+            </div>
+            <div class="mt-5 px-1 pb-2">
+                <span class="text-[#e67e22] text-sm font-semibold tracking-wide">Product Design</span>
+                <h3 class="text-xl font-bold text-black mt-2 leading-tight">
+                    Retail Mobile UI Concept
+                </h3>
+            </div>
+        </a>
+        <a href="UX-UI4.html" class="project-card ui-ux group flex flex-col cursor-pointer bg-white rounded-2xl transition-all duration-300 hover:shadow-xl p-2 no-underline">
+            <div class="relative aspect-[4/4] overflow-hidden rounded-xl bg-[#fef4ea]">
+                <img class="w-full h-full object-cover transition duration-500 group-hover:scale-105" 
+                    src="assets/ux-ui4.png" alt="UX/UI Project">
+            </div>
+            <div class="mt-5 px-1 pb-2">
+                <span class="text-[#e67e22] text-sm font-semibold tracking-wide">UX/UI Design </span>
+                <h3 class="text-xl font-bold text-black mt-2 leading-tight">
+                    Mon Atelier Écofrugale Redesign
+                </h3>
+            </div>
+        </a>
+            
+       
+        <a href="UX-UI5.html" class="project-card ui-ux group flex flex-col cursor-pointer bg-white rounded-2xl transition-all duration-300 hover:shadow-xl p-2 no-underline">
+            <div class="relative aspect-[4/4] overflow-hidden rounded-xl bg-[#fef4ea]">
+                <img class="w-full h-full object-cover transition duration-500 group-hover:scale-105" 
+                    src="assets/ux-ui5.png" alt="UX/UI Project">
+            </div>
+            <div class="mt-5 px-1 pb-2">
+                <span class="text-[#e67e22] text-sm font-semibold tracking-wide">UX Research - Interaction Design </span>
+                <h3 class="text-xl font-bold text-black mt-2 leading-tight">
+                    Lacito : Design Software
+                </h3>
+            </div>
+        </a>
+        <a href="UX-UI6.html" class="project-card ui-ux group flex flex-col cursor-pointer bg-white rounded-2xl transition-all duration-300 hover:shadow-xl p-2 no-underline">
+            <div class="relative aspect-[4/4] overflow-hidden rounded-xl bg-[#fef4ea]">
+                <img class="w-full h-full object-cover transition duration-500 group-hover:scale-105" 
+                    src="assets/ux-ui6.png" alt="UX/UI Project">
+            </div>
+            <div class="mt-5 px-1 pb-2">
+                <span class="text-[#e67e22] text-sm font-semibold tracking-wide">UX Research - UI design</span>
+                <h3 class="text-xl font-bold text-black mt-2 leading-tight">
+                     Basic-Fit: Feature Integration
+                </h3>
+            </div>
+        </a>
+        <a href="UX-UI7.html" class="project-card ui-ux group flex flex-col cursor-pointer bg-white rounded-2xl transition-all duration-300 hover:shadow-xl p-2 no-underline">
+            <div class="relative aspect-[4/4] overflow-hidden rounded-xl bg-[#fef4ea]">
+                <img class="w-full h-full object-cover transition duration-500 group-hover:scale-105" 
+                    src="assets/ux-ui7.png" alt="UX/UI Project">
+            </div>
+            <div class="mt-5 px-1 pb-2">
+                <span class="text-[#e67e22] text-sm font-semibold tracking-wide">UX/UI design</span>
+                <h3 class="text-xl font-bold text-black mt-2 leading-tight">
+                    Coaching Pro
+                </h3>
+            </div>
+        </a> -->
+
+                <!-- Front-end projects -->
+            <!-- 
+        <a href="https://oussamabarkallah.github.io/travel-agency/" target="_blank" rel="noopener noreferrer" class="project-card front group flex flex-col cursor-pointer bg-white rounded-2xl transition-all duration-300 hover:shadow-xl p-2 no-underline">
+            <div class="relative aspect-[4/4] overflow-hidden rounded-xl bg-[#fef4ea]">
+                <img class="w-full h-full object-cover transition duration-500 group-hover:scale-105" 
+                    src="assets/front-1.png" alt="Fit Project">
+            </div>
+            
+            <div class="mt-5 px-1 pb-2">
+                <span class="text-[#e67e22] text-sm font-semibold tracking-wide">Frontend Development </span>
+                <h3 class="text-xl font-bold text-black mt-2 leading-tight">
+                    Travel Agency Landing Page
+                </h3>
+            </div>
+        </a> 
+
+        <a href="https://oussamabarkallah.github.io/medical-project/" target="_blank" rel="noopener noreferrer" class="project-card front group flex flex-col cursor-pointer bg-white rounded-2xl transition-all duration-300 hover:shadow-xl p-2 no-underline">
+            <div class="relative aspect-[4/4] overflow-hidden rounded-xl bg-[#fef4ea]">
+                <img class="w-full h-full object-cover transition duration-500 group-hover:scale-105" 
+                    src="assets/front-2.png" alt="Fit Project">
+            </div>
+            
+            <div class="mt-5 px-1 pb-2">
+                <span class="text-[#e67e22] text-sm font-semibold tracking-wide">Frontend Development</span>
+                <h3 class="text-xl font-bold text-black mt-2 leading-tight">
+                     Healthcare Project Landing Page
+                </h3>
+            </div>
+        </a>
+
+       <a href="https://oussamabarkallah.github.io/fitgym/" target="_blank" rel="noopener noreferrer" class="project-card front group flex flex-col cursor-pointer bg-white rounded-2xl transition-all duration-300 hover:shadow-xl p-2 no-underline">
+            <div class="relative aspect-[4/4] overflow-hidden rounded-xl bg-[#fef4ea]">
+                <img class="w-full h-full object-cover transition duration-500 group-hover:scale-105" 
+                    src="assets/front-3.png" alt="Fit Project">
+            </div>
+            
+            <div class="mt-5 px-1 pb-2">
+                <span class="text-[#e67e22] text-sm font-semibold tracking-wide">Frontend Development</span>
+                <h3 class="text-xl font-bold text-black mt-2 leading-tight">
+                     FitGym Landing Page
+                </h3>
+            </div>
+        </a>
+
+        <a href="https://oussamabarkallah.github.io/travel-projet/" target="_blank" rel="noopener noreferrer" class="project-card front group flex flex-col cursor-pointer bg-white rounded-2xl transition-all duration-300 hover:shadow-xl p-2 no-underline">
+            <div class="relative aspect-[4/4] overflow-hidden rounded-xl bg-[#fef4ea]">
+                <img class="w-full h-full object-cover transition duration-500 group-hover:scale-105" 
+                    src="assets/front-4.png" alt="Fit Project">
+            </div>
+            
+            <div class="mt-5 px-1 pb-2">
+                <span class="text-[#e67e22] text-sm font-semibold tracking-wide">Frontend Integration </span>
+                <h3 class="text-xl font-bold text-black mt-2 leading-tight">
+                     Travel Agency Landing page 
+                </h3>
+            </div>
+        </a> 
+        -->
+
+    </section> 
+
+<!-- Pied de page -->
+<footer class="bg-[#1a1a1a] text-white py-12 px-5">
+    <div class="container mx-auto flex flex-col items-center">
+        
+        <div class="mb-8">
+            <a href="index.html" class="flex flex-col items-center gap-2">
+                <img class="w-16 h-16 rounded-full object-cover border-2 border-[#e67e22]" src="assets/Photo de profil.png" alt="Logo">
+            </a>
+        </div>
+
+        <ul class="flex flex-wrap justify-center gap-6 md:gap-10 mb-8">
+            <li><a class="font-medium text-lg hover:text-[#e67e22] transition duration-300" href="index.html">Home</a></li>
+            <li><a class="font-medium text-lg hover:text-[#e67e22] transition duration-300" href="index.html#services">Services</a></li>
+            <li><a class="font-medium text-lg hover:text-[#e67e22] transition duration-300" href="index.html#projects">Projects</a></li>
+            <li><a class="font-medium text-lg hover:text-[#e67e22] transition duration-300" href="about.html">About Me</a></li>
+            <li><a class="font-medium text-lg hover:text-[#e67e22] transition duration-300" href="blog.html">Blog</a></li>
+            <li><a class="font-medium text-lg hover:text-[#e67e22] transition duration-300" href="contact.html">Contact</a></li>
+        </ul>
+
+        <!-- Reseau socieaux -->
+        <div class="flex space-x-6 text-2xl mb-10">
+            <a href="https://www.linkedin.com/in/oussama-barkallah/" target="_blank" rel="noopener noreferrer" class="hover:text-[#e67e22] transition transform hover:scale-110"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://dribbble.com/oussama-barkallah" target="_blank" rel="noopener noreferrer" class="hover:text-[#e67e22] transition transform hover:scale-110"><i class="fa-brands fa-dribbble"></i></a>
+            <a href="https://www.behance.net/oussamabarkall1" target="_blank" rel="noopener noreferrer" class="hover:text-[#e67e22] transition transform hover:scale-110"><i class="fa-brands fa-behance"></i></a>
+          <a href="mailto:oussama.obarkallah@gmail.com" class="hover:text-[#e67e22] transition transform hover:scale-110"><i class="fa-solid fa-envelope"></i></a>
+           <a href="https://wa.me/33745671704" target="_blank" rel="noopener noreferrer" class="hover:text-[#e67e22] transition transform hover:scale-110"> <i class="fa-brands fa-whatsapp"></i></a>
+        </div>
+
+        <div class="w-full border-t border-gray-800 pt-8 text-center">
+            <p class="text-gray-400 text-sm">
+                &copy; 2025 <span class="text-[#e67e22] font-semibold">Oussama Barkallah</span> All Rights Reserved, Inc.
+            </p>
+        </div>
+    </div>
+</footer>
+       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous">
+       </script>
+
+    
+      
+</body>
+</html>
